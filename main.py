@@ -1,25 +1,25 @@
-"""Simple Calculator ."""
+"""Simple Calculator."""
 
 def add(x, y):
-    """Adding  x and y."""
+    """Add x and y."""
     return x + y
 
 def sub(x, y):
-    """Subtracting x and y."""
+    """Subtract x and y."""
     return x - y
 
 def mul(x, y):
-    """Multiplying x and y."""
+    """Multiply x and y."""
     return x * y
 
 def div(x, y):
-    """Dividing x by y."""
+    """Divide x by y, return error if y is 0."""
     if y == 0:
         return "Cannot divide by 0"
     return x / y
 
 def main():
-   
+    """Run the interactive calculator menu."""
     while True:
         print("\n1. Add")
         print("2. Subtract")
